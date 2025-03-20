@@ -129,3 +129,19 @@
 .budget_sentence {
   font-size: 29px;
 }
+
+@media (max-width: 700px) {
+    .main_event{
+        flex-direction: column-reverse;
+        
+    }
+    .aboutus_main{
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+    }
+    .aboutus_container p {
+        font-size: 18px;
+        font-weight: 400;  
+    }
+}
